@@ -20,7 +20,7 @@ module "s3_bucket" {
                 "s3:GetObject",
                 "s3:GetObjectVersion"
             ],
-            "Resource": "arn:aws:s3:::josuexideralterraformmodule1/*"
+            "Resource": "arn:Bucket-ARN-HERE/*"
         }
     ]
 }
